@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Dec062022
 {
@@ -14,7 +14,8 @@ namespace Dec062022
             Console.WriteLine("enter the marks of hindi");
             int hindi = Convert.ToInt32(Console.ReadLine());
 
-            int total = maths + eng + hindi;
+            float total = maths + eng + hindi;
+            
             double precentage = (total*100)/300;
             if (precentage > 90F && precentage <= 100F)
             {
