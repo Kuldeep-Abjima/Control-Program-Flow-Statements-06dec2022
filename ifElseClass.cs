@@ -20,15 +20,15 @@ namespace Dec062022
             {
                 Console.WriteLine($"your result: \n total marks -: {total} \n total percentage -: {precentage} \n Your Grade is : A ");
             }
-            else if (precentage < 90F && precentage > 75F)
+            else if (precentage <= 90F && precentage > 75F)
             {
                 Console.WriteLine($"your result: \n total marks -: {total} \n total percentage -: {precentage} \n Your Grade is : B+");
             }
-            else if (precentage < 75F && precentage > 60F)
+            else if (precentage <= 75F && precentage > 60F)
             {
                 Console.WriteLine($"your result: \n total marks -: {total} \n total percentage -: {precentage} \n Your Grade is : B");
             }
-            else if (precentage < 60F && precentage > 50F)
+            else if (precentage <= 60F && precentage > 50F)
             {
                 Console.WriteLine($"your result: \n total marks -: {total} \n total percentage -: {precentage} \n Your Grade is : C+ ");
             }
